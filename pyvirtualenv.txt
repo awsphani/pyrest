@@ -1,0 +1,57 @@
+AP1ZLVDQ48EAB2:~ pkum60$ pwd
+/Users/pkum60
+
+
+//install flask; lib to create rest api
+brew install python3
+brew postinstall python3
+pip3 -V to see if it worked
+
+
+//create virtual environment
+
+AP1ZLVDQ48EAB2:~ pkum60$ 
+pip3 install
+pip3 freeze
+
+AP1ZLVDQ48EAB2:~ pkum60$ mkdir section4flask
+
+//create virtual environment- get clean version for python 3 with nolibraries
+
+AP1ZLVDQ48EAB2:section4flask pkum60$ pip3 install virtualenv
+
+//call virtualven prgm we installed so it creates a new folder venv and put put fresh python 3 installation
+
+AP1ZLVDQ48EAB2:section4flask pkum60$ virtualenv venv --python=python3.7
+AP1ZLVDQ48EAB2:section4flask pkum60$ source venv/bin/activate
+(venv) AP1ZLVDQ48EAB2:section4flask pkum60$
+(venv) AP1ZLVDQ48EAB2:section4flask pkum60$ python --version
+Python 3.7.6
+
+//to leave virtual env use  deactivate
+(venv) AP1ZLVDQ48EAB2:section4flask pkum60$ deactivate
+
+//activate virtual env again
+
+AP1ZLVDQ48EAB2:section4flask pkum60$ source venv/bin/activate
+
+(venv) AP1ZLVDQ48EAB2:section4flask pkum60$ pip install Flask-RESTful
+
+(venv) AP1ZLVDQ48EAB2:section4flask pkum60$ mkdir code
+(venv) AP1ZLVDQ48EAB2:section4flask pkum60$ cd code
+(venv) AP1ZLVDQ48EAB2:code pkum60$ touch app.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
