@@ -39,6 +39,7 @@ AP1ZLVDQ48EAB2:section4flask pkum60$ source venv/bin/activate
 
 (venv) AP1ZLVDQ48EAB2:section4flask pkum60$ mkdir code
 (venv) AP1ZLVDQ48EAB2:section4flask pkum60$ cd code
+(venv) AP1ZLVDQ48EAB2:section4flask pkum60$ pip3 install Flask-JWT
 (venv) AP1ZLVDQ48EAB2:code pkum60$ touch app.py
 
 
